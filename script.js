@@ -1,5 +1,4 @@
-console.log("Hello aqdas");
-alert("JS CONNECTED!");
+const button = querySelector("#viewBtn");
 const button =
   document.querySelector("button");
 
