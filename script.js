@@ -1,3 +1,4 @@
+alert("JS CONNECTED!");
 const button =
   document.querySelector("button");
 
