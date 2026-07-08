@@ -1,21 +1,42 @@
 body {
-  background-color: #0a0a0a;
+  background: #050505;
   color: white;
-  font-family: Ariel,sans-serif;
+  font-family: Ariel,
+sans-serif;
   text-align: center;
-  margin-top: 60px;
+  padding-top: 80px;
 }
 
 img {
-  width: 150px;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #00bfff;
 }
 
-buttons {
-  bacground-color: #00bfff;
+h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #aaaaaa;
+  font-size: 18px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 14px 30px;
+  background: #00bfff;
   color: white;
   border: none;
-  padding: 12px 20px;
-  border-radius: 10px;
+  border-radius: 20px;
+  font-size: 16px;
   cursor: pointer;
 }
+
+button:hover {
+  transform: scale(1.05);
+}
+  
